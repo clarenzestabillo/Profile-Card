@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  text-align: center;
+  padding: 50px;
+}
+
+.background-blur {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://as2.ftcdn.net/jpg/05/10/20/79/1000_F_510207959_k5tgB207A72C5A8TAaWpGBj0ktVCPOLp.jpg'); /* use your path */
+    background-size: cover;
+    background-position: center;
+    filter: blur(8px) brightness(0.8);
+    z-index: -1;
+  }
+
+.card {
+  background-color: white;
+  width: 300px;
+  margin: auto;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.profile-img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+
+.title {
+  color: gray;
+  font-size: 18px;
+}
+
+a {
+  display: inline-block;
+  margin-top: 15px;
+  text-decoration: none;
+  color: white;
+  background-color: #007BFF;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
